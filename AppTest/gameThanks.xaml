@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="AppTest.gameThanks"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/fond_jeu_thanks.png"/>
+        </Grid.Background>
+        <Button x:Name="dicoverAssoButton" Content="" Height="195" Margin="226,0,0,0" Width="195" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Click="DicoverAssoButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_asso_partenaire.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="donnateButton" Content="" Height="195" Margin="608,0,0,0" Width="195" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Click="DonnateButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_don.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

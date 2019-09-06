@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="AppTest.donChoice"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/fond_don_choice.png"/>
+        </Grid.Background>
+        <Button x:Name="videoButton" Content="" Height="195" Margin="118,330,0,0" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Canvas.ZIndex="3" Click="VideoButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_vidéo.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="infoButton" Content="" Height="195" Margin="0,328,0,0" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Center" Canvas.ZIndex="3" Click="InfoButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_info.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="donateButton" Content="" Height="195" Margin="711,328,0,0" VerticalAlignment="Top" Width="195" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Canvas.ZIndex="3" Click="DonateButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_don.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Center" Height="69" Margin="0,398,0,0" VerticalAlignment="Top" Width="959" Source="/Assets/arrow_left_right.png"/>
+        <Image HorizontalAlignment="Center" Height="145" Margin="0,549,0,0" VerticalAlignment="Top" Width="788" Source="/Assets/texte.png"/>
+
+    </Grid>
+</Page>

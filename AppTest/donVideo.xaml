@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="AppTest.donVideo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/fond_don_video.png"/>
+        </Grid.Background>
+        <Button x:Name="videoButton" Content="" Height="100" Margin="48,261,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Canvas.ZIndex="3" Click="VideoButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_vidéo.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="infoButton" Content="" Height="100" Margin="48,384,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Canvas.ZIndex="3" Click="InfoButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_info.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="donateButton" Content="" Height="100" Margin="48,507,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}" Canvas.ZIndex="3" Click="DonateButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_don.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="431" Margin="80,219,0,0" VerticalAlignment="Top" Width="44" Source="/Assets/fleche.png"/>
+
+    </Grid>
+</Page>

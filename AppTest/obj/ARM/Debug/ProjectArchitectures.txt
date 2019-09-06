@@ -1,0 +1,1 @@
+C:\Dev\testPuls\AppTest\AppTest\AppTest.csproj;arm

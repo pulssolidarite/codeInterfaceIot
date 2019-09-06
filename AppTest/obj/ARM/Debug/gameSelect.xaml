@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="AppTest.gameSelect"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/fond_jeu_choice.png"/>
+        </Grid.Background>
+        <Button x:ConnectionId='1' x:Name="game1Button" Content="" Height="195" Margin="43,362,0,0" VerticalAlignment="Top" Width="195" Canvas.ZIndex="3" BorderBrush="{x:Null}" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"                          
+                >
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_jeu_1.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="195" Margin="274,362,0,0" VerticalAlignment="Top" Width="195" Canvas.ZIndex="3" BorderBrush="{x:Null}" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_jeu_2.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='2' x:Name="game2Button" Content="" Height="195" Margin="274,362,0,0" VerticalAlignment="Top" Width="195" Canvas.ZIndex="3" BorderBrush="{x:Null}" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"                          >
+            <Button.Background>
+                <ImageBrush ImageSource="bd2b303f-6911-4aed-aa89-164861a85a52"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='3' x:Name="game3Button" Content="" Height="195" Margin="512,362,0,0" VerticalAlignment="Top" Width="195" Canvas.ZIndex="3" BorderBrush="{x:Null}" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"                          >
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_jeu_3.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='4' x:Name="game4Button" Content="" Height="195" Margin="761,362,0,0" VerticalAlignment="Top" Width="195" Canvas.ZIndex="3" BorderBrush="{x:Null}" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"                          >
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_jeu_4.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>
+

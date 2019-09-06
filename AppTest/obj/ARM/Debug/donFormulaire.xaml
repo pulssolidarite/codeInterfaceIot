@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="AppTest.donFormulaire"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/fond_don_formulaire.png"/>
+        </Grid.Background>
+        <Button x:ConnectionId='1' Content="" Height="150" Margin="551,558,0,0" VerticalAlignment="Top" Width="150" BorderBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}"                     >
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/bouton_envoyer.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>
+
